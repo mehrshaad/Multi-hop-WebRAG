@@ -152,7 +152,7 @@ class RAG:
         print(f'Loaded relationships from {path}')
 
     def load_system_prompt(self):
-        path = f'prompt{self.mode}'
+        path = f'prompt-{self.data_folder}'
         # self.load_relationships()
 
         with open(f'SystemPrompts/{path}.txt', 'r') as file:
