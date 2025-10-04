@@ -54,12 +54,10 @@ class RAG:
 
         self.embedding = create_sbert_mpnet(model=embedding_model)
         self.mode = '-' + mode
-        # self.mode = '-relationships' if relationships else ''
         self.relationships_context = ''
         self.llm_provider = llm_provider
         if llm_provider.lower() == 'openai':
             self.llm, self.llm_model = create_openai_client(model=llm_model)
-            # embedding = OpenAIEmbeddings(show_progress_bar=True, chunk_size=5)
         elif llm_provider.lower() == 'huggingface':
             self.llm, self.llm_model = create_huggingface_client(
                 model=llm_model)
@@ -153,7 +151,6 @@ class RAG:
 
     def load_system_prompt(self):
         path = f'prompt-{self.data_folder}'
-        # self.load_relationships()
 
         with open(f'SystemPrompts/{path}.txt', 'r') as file:
             data = file.read()

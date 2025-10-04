@@ -130,7 +130,7 @@ def evaluate_single(prediction: str, ground_truth: str) -> Tuple[float, float]:
     return em, f1
 
 
-k = 3
+k = 3  # Number of results to retrieve
 data_folder = '2WikiMultihopQA'  # '2WikiMultihopQA', 'HotpotQA', 'CloudComputing'
 data_extenstion = '-full-list'  # '-full-list', '-dev-context'
 llm_provider = 'gemini'  # 'openai', 'ollama', 'huggingface', 'gemini'

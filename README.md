@@ -12,6 +12,10 @@ This work investigates whether LLMs enhanced with web document-level, graph-augm
 
 ## 📊 Key Features of **WebRAG**
 
+<p align="center">
+  <img src="https://i.postimg.cc/pXnpFGBz/sara-intro-1.png" alt="WebRAG Introduction" width="600"/>
+</p>
+
 - Constructs a hyperlink graph between documents (using links in web pages).
 - Expands context retrieval by exploring the graph neighborhood of relevant pages.
 - Merges retrieved text from both RAG and WebGraph modules to generate more accurate and context-rich answers.
@@ -80,10 +84,24 @@ python main.py
 
 ## 📈 Results
 
-WebRAG significantly boosts EM and F1 scores over baseline RAG, particularly on the HotpotQA dataset where it achieves:
+WebRAG demonstrates substantial improvements over baseline RAG on the HotpotQA dataset:
 
-- **EM**: 80.0%
-- **F1**: 82.2%
+- **EM**: 80.0% (WebRAG) vs. 73.5% (RAG)
+- **F1**: 82.2% (WebRAG) vs. 75.6% (RAG)
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
+  <picture>
+    <source media="(max-width: 800px)" srcset="https://i.postimg.cc/C1zmHp5M/hist-plot-rag-hotspot.png">
+    <img src="https://i.postimg.cc/C1zmHp5M/hist-plot-rag-hotspot.png" alt="RAG Results on HotpotQA" width="400" style="max-width: 100%;"/>
+  </picture>
+  <picture>
+    <source media="(max-width: 800px)" srcset="https://i.postimg.cc/V6p4KZ0y/hist-plot-webrag-hotspot.png">
+    <img src="https://i.postimg.cc/V6p4KZ0y/hist-plot-webrag-hotspot.png" alt="WebRAG Results on HotpotQA" width="400" style="max-width: 100%;"/>
+  </picture>
+</div>
+<div align="center">
+  <em>Figure: Baseline RAG (left) and WebRAG (right) results on HotpotQA</em>
+</div>
 
 ## 📚 Citation
 
@@ -93,7 +111,8 @@ If you use WebRAG in your research, please cite our work:
 @inproceedings{yourname2025webrag,
   title={Enhancing Retrieval-Augmented Generation with Document Link Structure for Multi-hop Web Question Answering},
   author={Your Name et al.},
-  booktitle={Proceedings of CASCON},
+  booktitle={LLMs Meet Dataset Workshop (LMD 20205). In conjunction with the 35th IEEE International Conference on Collaborative Advances in Software and Computing (CASCON 20205).}
+  publisher={IEEE},
   year={2025}
 }
 ```
