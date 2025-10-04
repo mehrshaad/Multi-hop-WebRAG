@@ -86,8 +86,8 @@ python main.py
 
 WebRAG demonstrates substantial improvements over baseline RAG on the HotpotQA dataset:
 
-- **EM**: 80.0% (WebRAG) vs. 73.5% (RAG)
-- **F1**: 82.2% (WebRAG) vs. 75.6% (RAG)
+- **EM**: 80.0% (WebRAG) vs. 41.0% (RAG)
+- **F1**: 82.2% (WebRAG) vs. 50.1% (RAG)
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
   <picture>
