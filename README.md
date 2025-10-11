@@ -123,3 +123,31 @@ If you use WebRAG in your research, please cite our work:
 - Improve graph construction beyond hyperlinks (e.g., semantic linking).
 - Explore hybrid architectures combining different graph types.
 - Investigate the use of advanced models such as Graph Neural Networks (GNNs) and DeepWalk to further enhance document graph representation and retrieval performance.
+
+## Authors
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="img/ali2.jpg" width="120" style="border-radius:50%;" alt="Ali"><br>
+      <b>Ali Dadashzadeh</b><br>
+      <a href="https://www.linkedin.com/in/dadashzadeh-ali/">LinkedIn</a>
+    </td>
+    <td align="center">
+      <img src="img/Renata.png" width="120" style="border-radius:50%;" alt="Renata"><br>
+      <b>Renata Dividino</b><br>
+      <a href="https://www.linkedin.com/in/renatadividino/">LinkedIn</a>
+    </td>
+    <td align="center">
+      <img src="img/sara.jpg" width="120" style="border-radius:50%;" alt="Sara"><br>
+      <b>Sara Mazaheri</b><br>
+      <a href="https://www.linkedin.com/in/sara-mazaheri-399a6b191/">LinkedIn</a>
+    </td>
+    <td align="center">
+      <img src="img/arash.jpg" width="120" style="border-radius:50%;" alt="Arash"><br>
+      <b>Arash Niroumand</b><br>
+      <a href="https://www.linkedin.com/in/arash-niroumand-7345ba227/">LinkedIn</a>
+    </td>
+  </tr>
+</table>
+
