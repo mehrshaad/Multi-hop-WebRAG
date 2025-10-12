@@ -110,7 +110,7 @@ If you use WebRAG in your research, please cite our work:
 ```bibtex
 @inproceedings{yourname2025webrag,
   title={Enhancing Retrieval-Augmented Generation with Document Link Structure for Multi-hop Web Question Answering},
-  author={Your Name et al.},
+  author={Sara Mazaheri, Ali Dadashzadeh, Arash Niroumand, Renata Dividino},
   booktitle={LLMs Meet Dataset Workshop (LMD 20205). In conjunction with the 35th IEEE International Conference on Collaborative Advances in Software and Computing (CASCON 20205).}
   publisher={IEEE},
   year={2025}
@@ -128,25 +128,26 @@ If you use WebRAG in your research, please cite our work:
 
 <table align="center">
   <tr>
+      <td align="center">
+      <img src="img/sara.jpg" width="120" style="border-radius:50%;" alt="Sara"><br>
+      <b>Sara Mazaheri</b><br>
+      <a href="https://www.linkedin.com/in/sara-mazaheri-399a6b191/">LinkedIn</a>
+    </td>
+    <td align="center">
     <td align="center">
       <img src="img/ali2.jpg" width="120" style="border-radius:50%;" alt="Ali"><br>
       <b>Ali Dadashzadeh</b><br>
       <a href="https://www.linkedin.com/in/dadashzadeh-ali/">LinkedIn</a>
     </td>
     <td align="center">
-      <img src="img/Renata.png" width="120" style="border-radius:50%;" alt="Renata"><br>
-      <b>Renata Dividino</b><br>
-      <a href="https://www.linkedin.com/in/renatadividino/">LinkedIn</a>
-    </td>
-    <td align="center">
-      <img src="img/sara.jpg" width="120" style="border-radius:50%;" alt="Sara"><br>
-      <b>Sara Mazaheri</b><br>
-      <a href="https://www.linkedin.com/in/sara-mazaheri-399a6b191/">LinkedIn</a>
-    </td>
-    <td align="center">
       <img src="img/arash.jpg" width="120" style="border-radius:50%;" alt="Arash"><br>
       <b>Arash Niroumand</b><br>
       <a href="https://www.linkedin.com/in/arash-niroumand-7345ba227/">LinkedIn</a>
+    </td>
+        <td align="center">
+      <img src="img/Renata.png" width="120" style="border-radius:50%;" alt="Renata"><br>
+      <b>Renata Dividino</b><br>
+      <a href="https://www.linkedin.com/in/renatadividino/">LinkedIn</a>
     </td>
   </tr>
 </table>
