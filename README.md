@@ -108,13 +108,20 @@ WebRAG demonstrates substantial improvements over baseline RAG on the HotpotQA d
 If you use WebRAG in your research, please cite our work:
 
 ```bibtex
-@inproceedings{yourname2025webrag,
-  title={Enhancing Retrieval-Augmented Generation with Document Link Structure for Multi-hop Web Question Answering},
-  author={Sara Mazaheri, Ali Dadashzadeh, Arash Niroumand, Renata Dividino},
-  booktitle={LLMs Meet Dataset Workshop (LMD 20205). In conjunction with the 35th IEEE International Conference on Collaborative Advances in Software and Computing (CASCON 20205).}
-  publisher={IEEE},
-  year={2025}
-}
+@INPROCEEDINGS {11344163,
+author = { Mazaheri, Sara and Dadashzadeh, Ali and Alankesh, Arash Niroumand and Dividino, Renata },
+booktitle = { 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON) },
+title = {{ Enhancing Retrieval-Augmented Generation with Document Link Structure for Multi-Hop Web Question Answering }},
+year = {2025},
+volume = {},
+ISSN = {},
+pages = {621-626},
+keywords = {Navigation;Large language models;Retrieval augmented generation;Semantics;Organizations;Software;Question answering (information retrieval);Hypertext systems;Web search;Faces},
+doi = {10.1109/CASCON66301.2025.00112},
+url = {https://doi.ieeecomputersociety.org/10.1109/CASCON66301.2025.00112},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = Nov}
 ```
 
 ## 🧠 Future Work
